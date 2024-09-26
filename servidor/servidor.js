@@ -20,5 +20,5 @@ server.on('connection',(socket)=>{
     })
 })
 server.listen(3000,()=>{
-    console.log("SERVIDOR FUNCIONANDO EN: ", server.address().port)
+    console.log("SERVIDOR FUNCIONANDO EN EL PUERTO: ", server.address().port)
 })

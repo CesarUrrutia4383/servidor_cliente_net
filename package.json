@@ -1,0 +1,20 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "Practica sobre uso de sockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "sockets",
+    "npm",
+    "node",
+    "nodemon"
+  ],
+  "author": "Cesar_Urrutia43",
+  "license": "ISC",
+  "dependencies": {
+    "net": "^1.0.2"
+  }
+}
