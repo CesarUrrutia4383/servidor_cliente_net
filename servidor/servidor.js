@@ -14,4 +14,11 @@ server.on('connection',(socket)=>{
     socket.on(close,()=>{
         console.log("CONEXION FINALIZADA")
     })
+    //Conexion con Errores
+    socket.on('error',(err)=>{
+        console.log("Error de conexion: "+err)
+    })
+})
+server.listen(3000,()=>{
+    console.log("SERVIDOR FUNCIONANDO EN: ", server.address().port)
 })
