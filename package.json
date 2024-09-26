@@ -15,6 +15,7 @@
   "author": "Cesar_Urrutia43",
   "license": "ISC",
   "dependencies": {
-    "net": "^1.0.2"
+    "net": "^1.0.2",
+    "readline-sync": "^1.4.10"
   }
 }

@@ -11,7 +11,7 @@ server.on('connection',(socket)=>{
         socket.write("MENSAJE RECIBIDO")
     })
 //FINALIZAR LA COMUNICACION DEL CLIENTE
-    socket.on(close,()=>{
+    socket.on('close',()=>{
         console.log("CONEXION FINALIZADA")
     })
     //Conexion con Errores
