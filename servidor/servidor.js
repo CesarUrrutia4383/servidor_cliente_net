@@ -4,7 +4,8 @@ const net =require("net");
 //CREAR EL SERVIDOR
 const server = net.createServer()
 
-//"Enciende el servidor para escuchar los datos"
+/*"Enciende el servidor para escuchar los datos" y muestra los mensajes
+ en la consola, enviados por parte del cliente*/
 server.on('connection',(socket)=>{
     socket.on('data',(data)=>{
         console.log("Mensaje del Cliente: "+data)
